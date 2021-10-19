@@ -1,0 +1,187 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.everything {
+	display: flex;
+	flex-direction: row;
+}
+	
+	.left {
+		display: flex;
+		flex-direction: column;
+		width: 15%;
+		background-color: #efe5d3;
+		padding: 3vh;
+	}
+
+	.star {
+		margin-bottom: 2.3vh;
+	}
+
+	h1 {
+		font-family: bely,serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 3.4vh;
+		margin: 0;
+		padding: 0;
+	}
+
+	h2 {
+		font-family: bely,serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 2vh;
+		margin: 0;
+		padding: 0;
+	}
+
+	h3 {
+		margin-top: 2vh;
+		font-family: brother-1816,sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1.5vh;
+	}
+
+
+
+	.right {
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+		background-color: #faf6ed;
+		align-content: left;
+	}
+
+		hr {
+			display: block;
+			background-color: black;
+			height: .02vh;
+			width: 90%;
+		}
+
+		.woof {
+		font-family: bely,serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 5vh;
+		margin-top: 5vh;
+		margin-left: 5vh;
+		padding: 0;
+		}
+
+		.meow {
+		font-family: brother-1816,sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1.5vh;
+		margin-left: 5vh;
+		}
+
+		.box {
+		display: flex;
+		flex-direction:row;
+		width: 55vw;
+		margin-left: 15vh;
+		margin-top: 3vh ;
+
+		}
+
+			.left-box {
+				display: flex;
+				flex-direction: row;
+				width: 3%;
+				height: 100%;
+				background-color: #998c76;
+			}
+
+			.right-box {
+				display: flex;
+				flex-direction: row;
+				width: 98%;
+				height: 17vh;
+				background-color: #e9e0cc;
+				align-content: center;
+			}
+
+				.book {
+					height:12vh;
+					width: auto;
+					align-content: right;
+					padding-top: 2vh;
+					padding-left: 1vh;
+					padding-bottom: 2vh;
+				}
+				.box-text {
+					display: flex;
+					flex-direction: row;
+					font-family: brother-1816,sans-serif;
+					font-weight: 400;
+					font-style: normal;
+					font-size: 1.6vh;
+					margin-left: 3vh;
+					margin-right: 3vh;
+					padding-top: 2vh;
+					padding-bottom: 2vh;
+
+				}
+
+
+			.intro {
+				font-family: brother-1816,sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 1.5vh;
+				padding-top: 3vh;
+				margin-left: 5vh;
+				margin-right: 5vh;
+
+			}
+
+
+			.content-1 {
+				display: flex;
+				flex-direction: column;
+				font-family: brother-1816,sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 1.5vh;
+				padding-top: 3vh;
+				margin-left: 5vh;
+				margin-right: 5vh;
+			}
+
+			.content-header {
+				font-family: bely,serif;
+				font-weight: 700;
+				font-style: normal;
+				font-size: 3.4vh;
+			}
+
+			.indent-1 {
+				padding-left: 4vw;
+				margin-top: 0;
+
+			}
+
+.end-box {
+	display: flex;
+	width: 100vw;
+	height: 2vh;
+	background-color: #998c76;
+}
+
+
+
+
+
+
+
+
+
+
+
+
