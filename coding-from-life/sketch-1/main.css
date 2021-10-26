@@ -1,0 +1,101 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+  z-index: -3;
+}
+
+/* VASE */
+.vase-1 {
+  border-radius: 60px;
+  background: #73AD21;
+  position: absolute;
+  bottom: 110px;
+  right: 70px;
+  width: 200px;
+  height: 90px;
+  z-index: 3;
+}
+
+.vase-2 {
+  border-radius: 60px;
+  background: #73AD21;
+  position: absolute;
+  bottom: 160px;
+  right: 70px;
+  width: 200px;
+  height: 90px;
+  z-index: 3;
+}
+.vase-3 {
+  border-radius: 60px;
+  background: #73AD21;
+  position: absolute;
+  bottom: 200px;
+  right: 70px;
+  width: 200px;
+  height: 90px;
+  z-index: 3;
+}
+
+.table {
+ width: 1000px;
+ height: 200px;
+ background: #e99123;
+ position: absolute;
+ top: 500px;
+ z-index: 0;
+
+}
+
+.table-top {
+ width: 1500px;
+ height: 100px;
+ background: whitesmoke;
+ position: absolute;
+ top: 450px;
+ transform: skew(-60deg);
+ z-index: 1;
+}
+
+.wall-left {
+  width: 88px;
+  height: 600px;
+  background: #edba40;
+  position: absolute;
+  border-bottom: 30px;
+  z-index:-1;
+}
+
+.wall-right {
+  width: 1000px;
+  height: 500px;
+  background: #8c4b20;
+  position: absolute;
+  z-index: -2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
