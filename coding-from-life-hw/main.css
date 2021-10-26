@@ -11,11 +11,12 @@ body {
 }
 
 .frame {
+  top: 30px;
+  left: 95px;
   width: 1000px;
   height: 600px;
   background: #d6c2bd;
-  margin: 30px auto;
-  position: relative;
+  position: fixed;
   z-index: -3;
 }
 
@@ -23,6 +24,7 @@ body {
 .pot-butt {
   position: fixed;
   top: 275px;
+  left: 95px;
   width: 230px;
   height: 135px;
   border-radius: 0 0 75px 75px;
@@ -268,14 +270,6 @@ body {
 
 }
 
-.cloth {
-  position: fixed;
-  top: 390px;
-  right: 160px;
-  width: 1290px;
-  height: 660px;
-
-}
 
 .triangle-cloth-1 {
   position: fixed;
