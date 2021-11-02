@@ -1,53 +1,59 @@
 
 body {
+  background-color: black;
+  position: absolute;
+}
+
+
+#eyes {
+  padding: 10px 10px 10px 10px;
+  margin-top: 100px;
+  height: 200px;
+  z-index: 0;
+}
+
+@keyframes eyesmove{
+  0% {
+    transform: translate(0px,0px);
+  }
+  25% {
+    transform: translate(30px,0px);
+  }
+
+  50% {
+  transform: translate(0px,0)px;
+  }
+
+  75% {
+  transform: translate(-30px,0px);
+  }
+
+  100% {
+  transform: translate(0px,0px);
+  }
+}
+
+.eyeball-1 {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  top: 115px;
+  left: 170px;
   background-color: pink;
+  border-radius: 50%;
+  z-index: 1;
+  animation: eyesmove 2s linear infinite;
 }
 
-.container {
-  display: flex;
-  flexdirection: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.eyeball-2 {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  top: 115px;
+  left: 900px;
+  background-color: pink;
+  border-radius: 50%;
+  z-index: 1;
+  animation: eyesmove 2s linear infinite;
 }
 
-@keyframes yinyangSpin {
-  0% {
-    transform: rotate(0turn);
-  }
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-@keyframes colorSwap {
-  0% {
-    fill: default;
-  }
-  100% {
-    fill: #6d79cd;
-  }
-}
-
-@keyframes fade {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-#yin-yang {
-  animation: yinyangSpin 5s ease-out infinite;
-  height:500px;
-}
-
-#yin-yang path, #yin-yang circle {
-  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
-}
-
-#yin-yang:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
