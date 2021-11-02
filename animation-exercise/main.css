@@ -39,7 +39,7 @@ body {
   width: 190px;
   top: 115px;
   left: 170px;
-  background-color: pink;
+  background-color: red;
   border-radius: 50%;
   z-index: 1;
   animation: eyesmove 2s linear infinite;
@@ -51,7 +51,7 @@ body {
   width: 190px;
   top: 115px;
   left: 900px;
-  background-color: pink;
+  background-color: red;
   border-radius: 50%;
   z-index: 1;
   animation: eyesmove 2s linear infinite;
