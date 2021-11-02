@@ -1,17 +1,53 @@
 
-#yin-yang {
-  height:500px;
-  animation: spinType 1s linear 3s infinite;
+body {
+  background-color: pink;
 }
 
-@keyframes spinType {
+.container {
+  display: flex;
+  flexdirection: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes yinyangSpin {
   0% {
-    transform: rotate(0.5turn);
-  }
-  60% {
-    transform: rotate(0.7turn);
+    transform: rotate(0turn);
   }
   100% {
     transform: rotate(1turn);
   }
+}
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#yin-yang {
+  animation: yinyangSpin 5s ease-out infinite;
+  height:500px;
+}
+
+#yin-yang path, #yin-yang circle {
+  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
+}
+
+#yin-yang:hover {
+  animation-play-state: paused;
+  cursor: pointer;
 }
