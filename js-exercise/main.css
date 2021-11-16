@@ -1,0 +1,39 @@
+
+body {
+  background-color:  #f05324;
+}
+
+.button {
+  padding: 20px 50px;
+  border-radius: 50px;
+  background-color: #e3e418;
+  color: #f05324;
+  font-family: Comic Sans MS;
+  font-size:  50px;
+  text-align:  center;
+  transition:  all 100ms;
+  width: 300px;
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+  z-index: 1;
+}
+
+.button:hover {
+cursor: url(https://cursor-stickers.familyhealth-ar.com/public/db/arrows/arrow229.png), auto;
+background-color: #fffc92;
+}
+
+.cat-hungry {
+	display: flex;
+	height: 100vh;
+}
+
+.cat-full {
+	display: flex;
+	height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
