@@ -219,6 +219,11 @@ a.live {
 		align-content: center;
 		text-align: center;
 	}
+	.left-int{
+		width: 500px;
+		align-content: center;
+		text-align: center;
+	}
 	.header-left{
 		width: 500px;
 		margin-left: 0px;
