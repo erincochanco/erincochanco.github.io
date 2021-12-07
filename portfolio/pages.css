@@ -1,0 +1,293 @@
+body{
+	background-color: #231f20;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+	a:hover{
+		color: #da7cad;
+		cursor: url("home-hover.png"),pointer;
+
+	}
+
+a.wh{
+	color: #999ea3;
+	text-decoration: none;
+}
+	a.wh:hover{
+		color: white;
+	}
+
+a.live {
+	color: #288e44;
+	text-decoration: none;
+}
+	a.live:hover{
+		color: #da7cad;
+	}
+
+.header {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	width: 99vw;
+	align-content: center;
+}
+
+.home{
+	display: flex;
+	margin-left: 150px;
+	width: 32.3vw;
+	justify-content: left;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #231f20;
+}
+	.home:hover{
+		color: #da7cad;
+		
+	}
+
+
+.whph{
+	display: flex;
+	width: 32.3vw;
+	justify-content: center;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	color: white;
+	font-style: normal;
+	background-color: #231f20;
+}
+
+.read{
+	display: flex;
+	margin-right: 150px;
+	width: 32.3vw;
+	justify-content: right;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #231f20;
+}
+
+	.read:hover{
+		color: #da7cad;
+		cursor: pointer;
+		align-content: center;
+	}
+
+.screen{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.left-rg{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #17488d;
+	width: 30vw;
+	height: 90vh;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-style: normal;
+}
+
+.left-int{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #288e44;
+	width: 30vw;
+	height: 90vh;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-style: normal;
+}
+
+	.header-left{
+		margin-top: 40px;
+		margin-left: 12px;
+		width: 30vw;
+		height: 10px;
+		font-weight: 700;
+		font-size: 40px;
+		color: white;
+
+	}
+	.proj-or-exec{
+		display: flex;
+		margin-left: 20px;
+		width: 30vw;
+		font-weight: 400;
+		font-size: 20px;
+		color: white;
+
+	}
+	.desc{
+		display: flex;
+		margin-left: 20px;
+		width: 20vw;
+		font-weight: 400;
+		font-size: 15px;
+		color: white;
+	}
+
+.space{
+	height: 40px ;
+	display: flex;
+}
+
+	.link-box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 20px;
+		height: 25px ;
+		width: 200px;
+		background-color: white;
+		border-radius: 50px;
+
+	}
+
+	.live-link{
+		display: flex;
+		color: #231f20;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	.rg-right{
+		display: flex;
+		margin-top: 50px;
+	}
+
+	.interview-right{
+		display: flex;
+		margin-top: 20px;
+	}
+
+.black{
+	display: flex;
+	width: 100vw;
+	background-color:#231f20;
+}
+
+.end {
+	display: flex;
+	background-color: #e691ba;
+	height: 5vh;
+	just3ify-content: center;
+	alig3n-items: center;
+
+}
+
+.end-text{
+	margin-top: 5px;
+	display: flex;
+	align-content: flex-end;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	animation: end 8s infinite linear reverse;
+}
+
+@keyframes end {
+	0% {transform: translateX(100vw);}
+	99% {opacity: 100%;}
+	100% {opacity: 0%;}
+}
+
+@media screen and (max-width: 900px){
+	.home{
+		margin-left: 30px;
+	}
+	.read{
+		margin-right: 30px;
+	}
+	.left-rg{
+		width: 500px;
+		align-content: center;
+		text-align: center;
+	}
+	.header-left{
+		width: 500px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.proj-or-exec{
+		width: 500px;
+		margin-left: 220px;
+		text-align: center;
+	}
+	.desc{
+		width: 450px;
+		text-align: center;
+	}
+
+	.rg-right{
+		display: none;
+	}
+	.interview-right{
+		display: none;
+	}
+	.right{
+		display: none;
+	}
+	.rg-right{
+		display: none;
+	}
+
+	.link-box{
+		margin-left: 155px;
+
+
+	}
+	.black{
+		display: none;
+	}
+	.end-text{
+	font-size: 17px;
+	width: 500px;
+	animation: end 1s infinite linear reverse;
+	}
+
+	@keyframes end {
+		0% {transform: translateX(35px);}
+		99% {opacity: 100%;}
+		100% {opacity: 0%;}
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
