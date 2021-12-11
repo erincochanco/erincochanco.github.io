@@ -1,0 +1,193 @@
+body {
+	background-color: #fcf7f0;
+}
+
+.circle-house{
+	display: flex;
+	width: 98vw;
+	justify-content: center;
+	margin-top:20pt;
+}
+
+.circle{
+	display: flex;
+	font-family: orpheuspro,serif;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	font-size: 20pt;
+	justify-content: center;
+	color: white;
+	height: 30pt;
+	margin-left: 40pt;
+	width: 250pt;
+	border-radius: 50pt;
+	background-color: black;
+}
+
+.header{
+	display: flex;
+	margin-top: 30pt;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: manofa-condensed,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 90pt;
+	line-height: 100pt;
+}
+
+.coffee{
+	display: none;
+	height: 90pt;
+	float: right;
+}
+
+.computer{
+	display: none;
+	height: 90pt;
+	float: right;
+}
+
+	.working:hover + .coffee{
+		color: #10af7a;
+		display: inline;
+	}
+
+	.student:hover + .computer{
+		color: #10af7a;
+		display:inline;
+	}
+
+
+.box{
+	display: flex;
+	margin-top: 50pt;
+	background-color: #10af7a;
+	justify-content: center;
+	align-items: center;
+	height: 150pt;
+}
+
+.interview-by{
+	font-family: orpheuspro,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20pt;
+	color: white;
+}
+
+.QnA{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	margin-left: 150pt ;
+	margin-right: 150pt;
+	margin-top: 80pt;
+}
+
+	.Q{
+		display: flex;
+		font-family: orpheuspro,serif;
+		font-weight: 400;
+		font-style: italic;
+		font-size: 25pt;
+		color: #10af7a;
+	}
+
+	.socialpic{
+		display: none;
+		height: 50pt;
+		margin-left: 20pt;
+		float: right;
+	}
+
+	.social{
+		color: blue;
+	}
+
+		.social:hover + .socialpic{
+			display: inline;
+		}
+
+	.tmpic{	
+		display: none;
+		height: 50pt;
+		margin-left: 20pt;
+		float: right;
+	}
+
+	.tm{
+		color: blue;
+	}
+
+		.tm:hover + .tmpic{
+			display: inline;
+		}
+		
+	.covidpic{
+		display: none;
+		height: 50pt;
+		margin-left: 20pt;
+		float: right;
+
+	}
+	.covid{
+		color: blue;
+	}
+	.covid:hover + .covidpic{
+		display: inline;
+	}
+
+	.A{
+		display: flex;
+		font-family: orpheuspro,serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 18pt;
+		color: black;
+
+	}
+
+.end{
+	display: flex;
+	background-color: #10af7a;
+	height: 30pt;
+	margin-top: 1300pt;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	font-family: orpheuspro,serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
