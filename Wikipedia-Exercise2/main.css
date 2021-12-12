@@ -1,0 +1,222 @@
+body{
+	background-color: #aed8ed;
+	display: flex;
+	flex-wrap: wrap;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+a.{
+	color: white;
+}
+	a.Stendhal{
+		color:#074f35;
+	}
+
+	a.Graziella{
+		color:white;
+	}
+
+	.Stendhal{
+		color: #074f35;
+	}
+
+.landing{
+	display: flex;
+	width: 100vw;
+	height: 120vh;
+}
+
+	.paris{
+		display: flex;
+		width: 105vw
+	}
+	.clouds{
+		margin-top: 20pt;
+		margin-left: 50pt;
+		position: absolute;
+		width: 90vw;
+		animation: movement 1.4s linear infinite;
+	}
+
+	@keyframes movement {
+		0% {transform: translateY(6px);}
+		50% {transform: translateY(-6px);}
+		100% {transform: translateY(6px);}
+	}
+
+
+.header{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+	.header-text{
+		font-family: gopher,sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 80pt;
+		color: #074f35;
+	}
+.sub{
+	display: flex;
+	margin-top: 30pt;
+	height: 4vh;
+	width: 15vw;
+	background-color: #074f35;
+	border-radius: 25pt;
+	justify-content: center;
+	align-items: center;
+
+}
+	.sub-text{
+		font-family: gopher,sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 15pt;
+		color: white;
+	}
+
+
+.body-1{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100pt;
+}
+
+	.body-1-back{
+		display: flex;
+		width: 70vw;
+		height: 70vh;
+		background-color: white;
+		border-radius: 25pt;
+		border: solid black 1pt;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.body-1-txt{
+		padding: 60pt;
+		text-align: center;
+		font-family: gopher,sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 15pt;
+		color: black;
+	}
+
+
+.body-2{
+	display: flex;
+	height: 120vh;
+	width: 100vw;
+	background-color: #074f35;
+	justify-content: center;
+	align-items: center;
+}
+	.body-2-txt{
+	padding: 230pt;
+	text-align: center;
+	font-family: gopher,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	color: white;
+	}
+	.history{
+	font-family: gopher,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30pt;
+	color: white;
+	}
+
+.body-3{
+	display: flex;
+	height: 120vh;
+	width: 100vw;
+	background-color: #aed8ed;
+	justify-content: center;
+	align-items: center;
+}
+	.body-3-txt{
+	padding-right: 230pt;
+	padding-left: 230pt;
+	text-align: center;
+	font-family: gopher,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	color: #074f35;
+	}
+	.Susceptibility{
+	font-family: gopher,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30pt;
+	color: #074f35;
+	}
+
+.body-4{
+	display: flex;
+	height: 15vh;
+	width: 100vw;
+	background-color: #074f35;
+	justify-content: center;
+	align-items: center;
+	line-height: 10pt;
+}
+	.body-4-txt{
+	text-align: center;
+	font-family: gopher,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12pt;
+	line-height: 10pt;
+	color: white;
+	}
+	.See-Also{
+	font-family: gopher,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20pt;
+	color: white;
+	margin-bottom: 10pt;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
