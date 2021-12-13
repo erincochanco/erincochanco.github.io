@@ -2,6 +2,10 @@ body{
 	background-color: #fcf7f0;
 }
 
+a{
+	color: black;
+}
+
 
 .Landing{
 	display: flex;

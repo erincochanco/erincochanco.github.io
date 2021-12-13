@@ -26,9 +26,11 @@ a.{
 	display: flex;
 	width: 100vw;
 	height: 120vh;
+	animation: evil 4s linear infinite;
 }
 
 	.paris{
+		margin-top: 25pt;
 		display: flex;
 		width: 105vw
 	}
@@ -38,6 +40,13 @@ a.{
 		position: absolute;
 		width: 90vw;
 		animation: movement 1.4s linear infinite;
+	}
+
+	@keyframes evil{
+		0% {background-color:#aed8ed;}
+		50% {background-color: red;}
+		100% {background-color: #aed8ed;}
+		
 	}
 
 	@keyframes movement {

@@ -1,0 +1,63 @@
+body{
+	background: beige;
+}
+
+a{
+	color: blue;
+}
+
+.Interview{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.text{
+	text-align: center;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 36pt;
+	color: blue;
+}
+
+.a:hover + .a-text{
+	display: block;
+}
+
+.a-text{
+	display: none;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 15pt;
+	width: 500pt;
+}
+
+
+.b:hover + .b-text{
+	display: block;
+}
+
+.b-text{
+	display: none;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 15pt;
+	width: 500pt;
+}
+
+
+.c:hover + .c-text{
+	display: block;
+}
+
+.c-text{
+	display: none;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 15pt;
+	width: 500pt;
+}
