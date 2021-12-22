@@ -5,6 +5,15 @@ body{
 	animation: bg 5s infinite;
 }
 
+a{
+	color: #303d21;
+	text-decoration: none;
+}
+
+a:hover{
+	color: whitesmoke;
+}
+
 .main {
 	display: flex;
 	height: 100vh;
@@ -13,7 +22,7 @@ body{
 	align-items: center;
 }
 
-	.day{
+	.enter{
 		position: absolute;
 		font-family: gopher,sans-serif;
 		font-weight: 700;
@@ -35,10 +44,10 @@ body{
 	z-index: -1;
 }
 	.cloud-1{
-		animation: move1 2s infinite;
+		animation: move 5s infinite;
 	}
 	.cloud-3{
-		animation: move1 2s infinite;
+		animation: move 5s infinite;
 	}
 
 .clouds-2{
@@ -52,16 +61,11 @@ body{
 }
 
 @keyframes move{
-	0% {transform: translateX(10px);}
-	50% {transform: translateX(-10px);}
-	100% {transform: translateX(10px);}
+	0% {transform: translateY(-15px);}
+	50% {transform: translateY(15px)}
+	100% {transform: translateY(-15px)}
 }
 
-@keyframes move1{
-	0% {transform: translateX(-12px);}
-	50% {transform: translateX(6px);}
-	100% {transform: translateX(-12px);}
-}
 
 @keyframes bg {
 	0% {background-color:#efe8d3 ;}
