@@ -2,6 +2,7 @@ body{
 	background: #efe8d3;
 	margin: 0;
 	border: 0;
+	animation: bg 5s infinite;
 }
 
 .main {
@@ -22,13 +23,49 @@ body{
 		margin-right: 230px;
 		color: #303d21;
 	}
-	.clouds{
-		position: absolute;
-		height: 100vh;
-		width: 100vw;
-		z-index: -1;
-	}
-		.cloud-1{
-			margin-top: 100px;
 
-		}
+.clouds{
+	display: flex;
+	flex-direction: row;
+	margin-top:200px;
+	margin-left:190px;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+}
+	.cloud-1{
+		animation: move1 2s infinite;
+	}
+	.cloud-3{
+		animation: move1 2s infinite;
+	}
+
+.clouds-2{
+	margin-top:120px;
+	margin-left: 2000px;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+	animation: move 5s infinite;
+}
+
+@keyframes move{
+	0% {transform: translateX(10px);}
+	50% {transform: translateX(-10px);}
+	100% {transform: translateX(10px);}
+}
+
+@keyframes move1{
+	0% {transform: translateX(-12px);}
+	50% {transform: translateX(6px);}
+	100% {transform: translateX(-12px);}
+}
+
+@keyframes bg {
+	0% {background-color:#efe8d3 ;}
+	50% {background-color: #eddfbe;}
+	100% {background-color: #efe8d3;}
+}
+
