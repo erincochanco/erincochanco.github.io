@@ -198,6 +198,43 @@ a:hover{
 
 
 
+@media screen and (max-width: 736px) and (min-device-width: 414px){
+	.house-home{
+		height: 250px;
+		margin-top: 300px;
+	}
+	.enter{
+		font-size: 15px;
+		margin-bottom: -15px;
+		margin-left: 130px;
+	}
+	.cloud-1{
+		height: 100px;
+	}
+	.cloud-2{
+		height: 50px;
+	}
+	.cloud-3{
+		height: 50px;
+	}
+	.clouds{
+		margin-top: 50px;
+		width: 500xp;
+	}
+} 
+
+.cloufds{
+	display: flex;
+	flex-direction: row;
+	margin-top:200px;
+	margin-left:190px;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+
+
+
 
 
 
