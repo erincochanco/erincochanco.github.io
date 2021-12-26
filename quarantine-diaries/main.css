@@ -15,6 +15,12 @@ a:hover{
 	color: whitesmoke;
 }
 
+.overflow{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
 .construction{
 	font-family: gopher,sans-serif;
 	font-weight: 700;
@@ -45,11 +51,11 @@ a:hover{
 
 .clouds{
 	display: flex;
-	margin-top:200px;
-	margin-left:190px;
+	margin-top:120px;
+	margin-right:100px;
 	position: absolute;
-	height: 100vh;
-	width: 100vw;
+	height: 90vh;
+	width: 80vw;
 	z-index: -1;
 }
 	.cloud-1{
@@ -60,8 +66,9 @@ a:hover{
 	}
 
 .clouds-2{
-	margin-left: 1000px;
-	margin-bottom: 400px;
+	width: 10px;
+	margin-left: 780px;
+	margin-bottom: 380px;
 	position: absolute;
 	z-index: -1;
 	animation: move 5s infinite;
@@ -82,9 +89,9 @@ a:hover{
 
 .grass{
 	position: absolute;
-	margin-top: 700px;
+	margin-top: 650px;
 	width: 100vw;
-	height: 30vh;
+	height: 20vh;
 	background-color: #c6b999;
 	z-index: -1;
 }
@@ -95,6 +102,7 @@ a:hover{
 	margin-top: 600px;
 	margin-right: 1200px;
 	height: 200px;
+	width: 100px;
 	z-index: 1;
 }
 
@@ -122,15 +130,14 @@ a:hover{
 	}
 
 
-
 .house-bg{
-	margin-top: 40vh;
+	margin-top: 20vh;
 	width: 100vw;
 }
 
 	.day{
 		position: absolute;
-		margin-bottom: 250px;
+		margin-bottom: 400px;
 		margin-right: 850px;
 		font-family: gopher,sans-serif;
 		font-weight: 700;
@@ -142,7 +149,7 @@ a:hover{
 
 	.one {
 		position:absolute;
-		margin-bottom: 250px;
+		margin-bottom: 400px;
 		margin-left: 850px;
 		font-family: gopher,sans-serif;
 		font-weight: 700;
@@ -157,7 +164,7 @@ a:hover{
 	flex-direction: column;
 	background-color: #303d21;
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	justify-content: center;
 	align-items: center;
 }
@@ -193,7 +200,46 @@ a:hover{
 			font-size: 20px;
 		}
 
+.door-closed{
+	display: flex;
+	width: 100vw;
+}
 
+	.closed{
+		display: flex;
+		height: 100px;
+		width: 70px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+.door-open{
+	display: flex;
+	width: 100vw;
+}
+
+	.open{
+		height: 100px;
+		width: 70px;
+		margin-right: 440px;
+		display: none;
+	}
+
+.door-closed:hover +.door-open{
+	display: block;
+}
+
+.b:hover + .b-text{
+	display: block;
+}
+
+.b-text{
+	display: none;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	font-size: 15pt;
+	width: 500pt;
+}
 
 @media screen and (max-width: 536px) and (min-device-width: 414px){
 	.house-home{
