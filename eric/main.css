@@ -46,6 +46,7 @@ body{
     position: absolute;
     margin-top: 25vh;
     margin-left: 35vw;
+    animation-duration: 2s;
     animation-name: bounce;
     animation-iteration-count: infinite;
 }
@@ -65,6 +66,7 @@ body{
     position: absolute;
     margin-top: 25vh;
     margin-left: 35vw;
+    animation-duration: 2s;
     animation-name: bounce;
     animation-iteration-count: infinite;
 }
