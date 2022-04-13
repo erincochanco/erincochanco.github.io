@@ -1,0 +1,92 @@
+body{
+    background-color: E84DB4;
+}
+
+.home{
+    position: relative;
+}
+.home-background{
+ height: 844px;
+ width: 390px;
+}
+.cloud{
+    position: absolute;
+    margin-left: 5.4vw;
+    margin-top: 9.4vh;
+    animation-duration: 2s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+.shrek{
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 14vw;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+.yes{
+    position: absolute;
+    height: 38px;
+    margin-top: 87vh;
+    margin-left: 25vw;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+.no{
+    position: absolute;
+    height: 38px;
+    margin-top: 87vh;
+    margin-left: 58vw;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+/* YES */
+.heart{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 35vw;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+.yes-text{
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 21vw;
+}
+.home-button{
+    position: absolute;
+    margin-top: 88vh;
+    margin-left: 39vw;
+}
+
+/* NO */
+.ghost{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 35vw;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+.no-text{
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 21vw;
+}
+.home-button{
+    position: absolute;
+    margin-top: 88vh;
+    margin-left: 39vw;
+}
+
+/* animation */
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @keyframes bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
+}
