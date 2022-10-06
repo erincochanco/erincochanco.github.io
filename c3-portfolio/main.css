@@ -1,0 +1,44 @@
+body{
+    background-color: #f9eede;
+}
+
+.text{
+margin-top:5vh;
+margin-left: 2vw;
+/* text-align: center; */
+color: yellow;
+font-family: 'Times New Roman', Times, serif;
+width: 300px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+#icon{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    width: 100px;
+  }
+
+#icon-2{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    width: 80px;
+  }
+
+#icon:hover{
+    cursor: pointer;
+}
+#icon-2:hover{
+    cursor: pointer;
+}
+
+.project-name{
+    display: none;
+}
