@@ -1,0 +1,40 @@
+body{
+
+}
+
+.sa{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.sa-2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.sa-3{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.sa-4{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.sign{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.sign:hover{
+    background-image: url('susan-alexandra-02.png');
+}
+
+
+
