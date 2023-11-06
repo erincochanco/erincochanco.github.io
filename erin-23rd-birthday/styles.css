@@ -9,26 +9,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    text-align: center;
+    height: 95vh;
 }
 
 .header{
     display: flex;
+    margin-top: 10px;
     font-family: "sloop-script-two", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 100px;
 }
 
-.cake{
-    margin-top: 5%;
-    width: 10%;
+#cake{
+    width: 200px;
 }
 
 .details{
     display: flex;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
     font-family: "bely", serif;
     font-weight: 400;
     font-style: italic;
@@ -37,7 +38,7 @@ body {
 
 .rsvp{
     display: flex;
-    margin-top: 5%;
+    margin-top: 25%;
     font-family: "bely", serif;
     font-weight: 400;
     font-style: italic;
@@ -53,4 +54,20 @@ body {
     position: absolute;
     font-size: 24px;
     pointer-events: none;
+}
+
+@media (min-width: 390px) and (min-height: 812px) {
+    .header {
+        font-size: 40px; /* Adjust font size for taller screens */
+    }
+    #cake{
+        width: 150px;
+    }
+    .details{
+    font-size: 15px;
+    }
+    .rsvp{
+        margin-top: 10%;
+        font-size: 15px;
+    }
 }
