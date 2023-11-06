@@ -1,0 +1,81 @@
+body {
+    background: radial-gradient(circle at center, red, yellow 30%, green);
+    animation: gradientAnimation 3s infinite;
+
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 95vh;
+}
+
+.header{
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 80px;
+    line-height: 90%;
+}
+
+#hotpot{
+    width: 350px;
+}
+
+.details{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+}
+
+.rsvp{
+    display: flex;
+    margin-top: 25%;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    background-color:rgb(251, 255, 0); /* Fill color of the rectangle */
+    color: red; /* Text color */
+    padding: 5px 30px; /* Adjust padding to your preference */
+    border-radius: 25px; /* Adjust border radius for rounded corners */
+    display: inline-block; /* Ensures the background covers the text */
+}
+
+.sparkles {
+    position: absolute;
+    font-size: 24px;
+    pointer-events: none;
+}
+
+@media (min-width: 390px) and (min-height: 812px) {
+    .header {
+        font-size: 40px; /* Adjust font size for taller screens */
+    }
+    #cake{
+        width: 150px;
+    }
+    .details{
+    font-size: 15px;
+    }
+    .rsvp{
+        margin-top: 10%;
+        font-size: 15px;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background: radial-gradient(circle at center, red, blue);
+    }
+    50% {
+      background: radial-gradient(circle at center, red, blue, green);
+    }
+    100% {
+      background: radial-gradient(circle at center, red, blue);
+    }
+  }
