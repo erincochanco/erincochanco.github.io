@@ -56,9 +56,11 @@ body {
     pointer-events: none;
 }
 
-@media (min-width: 390px) and (min-height: 812px) {
+@media only screen 
+  and (max-device-width: 896px) 
+  and (-webkit-device-pixel-ratio: 2) {
     .header {
-        font-size: 40px; /* Adjust font size for taller screens */
+        font-size: 40px;
     }
     #cake{
         width: 150px;
