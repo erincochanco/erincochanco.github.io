@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F3E7;
+    color: #3384E5;
+  }
+  
+  /* header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3384E5;
+    color: #F7F3E7;
+  } */
+
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  main {
+    display: flex;
+    height: 100%;
+  }
+  
+.left {
+    width: 50%;
+    padding: 20px;
+    background-color: #3384E5;
+    color: #F7F3E7;
+    border-radius: 10px;
+  }
+  
+.right {
+    width: 50%;
+  }
+  
+.bingo-card {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
+#bingo-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #bingo-table td {
+    border: 2px solid #3384E5;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+  }

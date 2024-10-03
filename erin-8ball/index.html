@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erin's Magic 8-Ball</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Magic 8-Ball</h1>
+    </header>
+
+    <div class="dropdown">
+        <select id="question-dropdown">
+            <option value="">The best questions to ask yourself.</option>
+            <option value="0">Should I hire Erin?</option>
+            <option value="1">Does Erin make the bestest, prettiest, cuntiest design?</option>
+            <option value="2">Should I give Erin a Print Gocco?</option>
+            <option value="3">Does Erin deserve a paid job? With health insurance?</option>
+            <option value="4">Is Erin the perfect fit for my team?</option>
+            <option value="5">Should I reach out to interview her?</option>
+        </select>
+        <button onclick="askQuestion()">Ask</button>
+    </div>
+
+    <div class="ball-container">
+        <div class="ball-outer">
+            <div class="ball-inner">
+                <span id="answer">Ask away!</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
